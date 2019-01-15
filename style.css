@@ -17,6 +17,10 @@ body {
         position: absolute;
        background-image: linear-gradient(to bottom, rgb(144, 144, 144) 90%, rgb(170,170,170));    
     }
+    .homeicon {
+        width: 17px;
+    }
+    
 .tohen {
     width: 900px;
     direction: rtl;
@@ -43,20 +47,54 @@ nav.main-nav >ul > li > a {
     color: white;
     font-weight: bold;
     font-size: 14px;
-   
+    text-decoration: none;
 
 }
 nav >ul > li {
     display: inline-block;
+    margin: 2px 0;
+    padding: 0 5px;
     
+}
+nav > ul {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    margin: 0; 
 }
 nav.main-nav {
     padding-top: 57px;
-    padding-right: 137px;
-    
-}
-.about {
-    display: none;
+    margin: 0 143px 0 0;
 }
 
+.dropdown {    
+    display: inline-block;
+    position: relative;
+    }
+.dropdown-content ul {
+        width: 100%;
+        background-image: linear-gradient(to top, rgb(144, 144, 144) 90%, rgb(170,170,170));
+}
+ .dropdown-content {
+        display: none;
+        position: absolute;  
+}
+    
+.dropdown:hover > .dropdown-content {
+        display: block;
+        
+     }
+nav.dropdown-content > ul > li > a:hover {
+        background-color: #bcbcbc;
+        text-decoration: underline;
+        color: #005ca0;
+    }
+nav.dropdown-content > ul > li > a {
+    color: #005ca0;
+}
+nav.main-nav > ul > li > a:hover {
+    width: 100%;
+        text-decoration: underline;
+        color: #005ca0;}
+}
 
