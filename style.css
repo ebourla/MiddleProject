@@ -45,7 +45,7 @@ nav.main-nav >ul > li > a {
     margin: 10px;
     color: white;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     text-decoration: none;
 
 }
@@ -62,22 +62,26 @@ nav > ul {
     margin: 0; 
 }
 nav.main-nav {
-    padding-top: 65px;
+    padding-top: 63px;
     margin: 0 143px 0 0;
 }
 
 .dropdown {    
     display: inline-block;
     position: relative;
+    
     }
-.dropdown-content ul {
-        width: 100%;
-        background-image: linear-gradient(to top, rgb(144, 144, 144) 90%, rgb(170,170,170));
+.dropdown-content > ul > li {
+    width: 100%;
+    border-bottom: 1px solid #bcbcbc;
+    padding: 5px;
+    margin:0;
 }
  .dropdown-content {
         display: none;
         position: absolute;
-        color: white;  
+        color: white; 
+        background-image: linear-gradient(to top, rgb(144, 144, 144) 95%, rgb(170,170,170));  
 }
     
 .dropdown:hover > .dropdown-content {
