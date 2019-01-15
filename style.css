@@ -15,7 +15,7 @@ body {
         width: 100%;
         height: 105px;
         position: absolute;
-       background-image: linear-gradient(to bottom, rgb(144, 144, 144) 90%, rgb(170,170,170));    
+       background-image: linear-gradient(to bottom, rgb(144, 144, 144) 85%, rgb(170,170,170));    
     }
     .homeicon {
         width: 17px;
@@ -29,7 +29,7 @@ body {
 }
 header {
     width: 100%;
-   background-image: linear-gradient(to bottom, rgb(144, 144, 144) 90%, rgb(170,170,170));  
+   background-image: linear-gradient(to bottom, rgb(144, 144, 144) 85%, rgb(170,170,170));  
 }
 .logo {
     display: block;
@@ -85,9 +85,11 @@ nav.main-nav {
         
      }
 nav.dropdown-content > ul > li > a:hover {
-        background-color: #bcbcbc;
-        text-decoration: underline;
-        color: #005ca0;
+    width:100%;    
+    background-color: #bcbcbc;
+    text-decoration: underline;
+    color: #005ca0;
+        
     }
 nav.dropdown-content > ul > li > a {
     color:white;
@@ -103,7 +105,9 @@ nav.main-nav > ul > li > a:hover {
     color: white;
     text-decoration: none;
     
+    
 }
 nav.dropdown-content > ul > li {
     padding-top: 7px;
+    
 }
