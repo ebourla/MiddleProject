@@ -50,7 +50,7 @@ div.lang > ul > li {
     color: #a7a7a7;
     width: 4px;
     text-align: center;
-    margin: 0 3px;
+    margin: 0 5px;
 } 
 .logo {
     display: block;
@@ -72,7 +72,7 @@ nav.main-nav >ul > li > a {
 
 nav >ul > li {
     display: inline-block;
-    margin: 2px 0;
+    padding:3px;
     
 }
 nav > ul {
@@ -82,7 +82,7 @@ nav > ul {
     margin: 0; 
 }
 nav.main-nav {
-    padding-top: 71px;
+    padding-top: 75px;
     margin: 0 140px 0 0;
     padding-bottom:5px;
 }
@@ -90,25 +90,31 @@ nav.main-nav {
 .dropdown {    
     display: inline-block;
     position: relative;
-    margin:2px;
-    
     }
 .dropdown-content > ul > li {
     width: 100%;
     border-bottom: 1px solid #bcbcbc;
-    
+    padding-top: 5px;
+
+}
+nav.dropdown-content > ul > li:hover {
+    width: 100%;
+    background-color: #bcbcbc;
 }
  .dropdown-content {
-        padding:5px;
-        display: none;
-        position: absolute;
-        color: white; 
-        background-image: linear-gradient(to top, rgb(144, 144, 144) 95%, rgb(170,170,170));  
+    font-weight: bold;
+    font-size: 15px;
+    font-family: arial;
+    display: none;
+    text-decoration: none;
+    position: absolute;
+    color: white; 
+    background-image: linear-gradient(to top, rgb(144, 144, 144) 95%, rgb(170,170,170));  
 }
     
 .dropdown:hover > .dropdown-content {
         display: block;
-        
+        padding: 5px;
      }
 nav.dropdown-content > ul > li > a:hover {
     width:100%;    
@@ -120,18 +126,43 @@ nav.dropdown-content > ul > li > a:hover {
 nav.dropdown-content > ul > li > a {
     color:white;
     text-decoration: none;
-    width: 100%;
+    
 }
 nav.main-nav > ul > li > a:hover {
     width: 100%;
-        text-decoration: underline;
-        color: #005ca0;}
+    text-decoration: underline;
+    color: #005ca0;}
+    padding: 5px;
 }
-.dropdown-content {
-    color: white;
-    text-decoration: none;
+
+#new {
+    border: 3px solid green;
+    
+    padding: 10px;
+    margin: auto;
+    width: 900px;
 }
-nav.dropdown-content > ul > li:hover {
-    width: 100%;
-    background-color: #bcbcbc;
+div.pic1 {
+    width: 251px;
+    height:354px;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    
+}
+div.pic2 {
+    width: 251px;
+    height:354px;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    
+}
+div.pic3 {
+    width: 251px;
+    height:354px;
+    margin: 10px;
+    padding: 10px;
+    float: right;
+    
 }
