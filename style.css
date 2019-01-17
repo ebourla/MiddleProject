@@ -160,11 +160,14 @@ nav.main-nav > ul > li > a:hover {
     float: right;
 }
 #pic1-text {
+    width: 270px;
     position: absolute;
     bottom:10px;
+    right: 10px;
+    padding: 5px;
     /*border: 1px solid white;*/
     border-bottom-right-radius: 25px;
- background: red;
+    background: rgba(134, 134, 134, 75%);
 
 }
 .pic1 {
