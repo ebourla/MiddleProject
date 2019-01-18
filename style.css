@@ -132,7 +132,7 @@ nav.dropdown-content > ul > li > a:hover {
     text-decoration: underline;
     color: #005ca0;
     z-index:4;
-        
+       
     }
 nav.dropdown-content > ul > li > a {
     color:white;
@@ -155,8 +155,9 @@ nav.main-nav > ul > li > a:hover {
     /*position: relative;*/
     clear: both;
     z-index:2;
+    display: table;
 }
-
+/*pic1*/
 #pic1-text {
     width:228px;
     height: 77px;
@@ -175,7 +176,6 @@ nav.main-nav > ul > li > a:hover {
 .pic1 {
     position: relative;
     float: right;
-    margin-left: 9px;
     width: 291px;
     height: 354px;
     z-index: 2;
@@ -190,6 +190,23 @@ nav.main-nav > ul > li > a:hover {
     float: left;
     padding-left: 12px;
     font-size: 13px;
+    margin-top: 7px;
+    margin-bottom: 4px;
+}
+a.readMore::after {
+    content: '\2056';
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 19px;
+    color: #ffffff;
+    
+}
+a.readMore:hover {
+    color: #005ca0;
+    text-decoration: underline;
+}
+a.readMore:hover::after {
+    color: #005ca0;
 }
 h3 {
     font-size: 14px;
@@ -197,5 +214,163 @@ h3 {
 }
 .מסחר {
     font-size: 13px;
-    margin-top: 4px; 
+    margin: 4px 0 0 0;
 }
+/*pic2*/
+#pic2-text {
+    width:228px;
+    height: 77px;
+    font-size: 13px;
+    font-family: arial;
+    position: absolute;
+    bottom:6px;
+    right: 7px;
+    padding: 10px;
+    color: white;
+    border-bottom-right-radius: 25px;
+    background: rgba(127, 126, 126, 85%);
+    line-height: 1;
+
+}
+.pic2 {
+    position: relative;
+    float: right;
+    margin: 0 13px;
+    width: 291px;
+    height: 354px;
+    z-index: 2;
+    
+}
+.pic2 > img {
+    border-bottom-right-radius: 25px;
+    z-index: -1;
+}
+
+/*pic3*/
+#pic3-text {
+    width:228px;
+    height: 77px;
+    font-size: 13px;
+    font-family: arial;
+    position: absolute;
+    bottom:6px;
+    right: 7px;
+    padding: 10px;
+    color: white;
+    border-bottom-right-radius: 25px;
+    background: rgba(127, 126, 126, 85%);
+    line-height: 1;
+
+}
+.pic3 {
+    position: relative;
+    float: right;
+    width: 291px;
+    height: 354px;
+    z-index: 2;
+    
+}
+.pic3 > img {
+    border-bottom-right-radius: 25px;
+    z-index: -1;
+}
+
+/*Row2*/
+.row2 {
+    margin: auto;
+    width:900px;
+    height:216px;
+    margin-top: 17px;
+    clear: both;
+    display: table;
+}
+/*pic4*/
+.pic4 {
+    position: relative;
+    float: right;
+    width: 242px;
+    height: 216px;
+    padding: 0 24px;
+    z-index: 2;
+    border: 1px solid #d9d9d9; 
+    border-top-right-radius: 25px;
+    background-image: linear-gradient(to top, #ececec, #ffffff); 
+}
+#pic4-text {
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #575757;
+}
+.details {
+    color:#72716d;
+    float: left;
+    padding-left: 5px;
+    padding-bottom: 25px;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a.details:after {
+    content: '\2056';
+    font-weight: bold;
+    font-size: 19px;
+    color: #f8b713;
+    text-decoration: none;
+    
+}
+a.details:hover {
+    color: #005ca0;
+    text-decoration: underline;
+}
+a.details:hover::after {
+    color: #005ca0;
+}
+.little-pic {
+    width: 250px;
+    height: 110px;
+    margin: 13px 0;
+
+}
+/*pic5*/
+.pic5 {
+    margin: 0 12px;
+    position: relative;
+    float: right;
+    width: 242px;
+    height: 216px;
+    padding: 0 24px;
+    z-index: 2;
+    border: 1px solid #d9d9d9; 
+    border-top-right-radius: 25px;
+    background-image: linear-gradient(to top, #ececec, #ffffff); 
+}
+#pic5-text {
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #575757;
+}
+/*pic6*/
+.pic6 {
+    position: relative;
+    float: right;
+    width: 242px;
+    height: 216px;
+    padding: 0 24px;
+    z-index: 2;
+    border: 1px solid #d9d9d9; 
+    border-top-right-radius: 25px;
+    background-image: linear-gradient(to top, #ececec, #ffffff); 
+}
+#pic6-text {
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #575757;
+}
+
