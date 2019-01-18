@@ -288,7 +288,7 @@ h3 {
 .pic4 {
     position: relative;
     float: right;
-    width: 242px;
+    width: 241px;
     height: 216px;
     padding: 0 24px;
     z-index: 2;
@@ -336,10 +336,10 @@ a.details:hover::after {
 }
 /*pic5*/
 .pic5 {
-    margin: 0 12px;
+    margin: 0 13px;
     position: relative;
     float: right;
-    width: 242px;
+    width: 241px;
     height: 216px;
     padding: 0 24px;
     z-index: 2;
@@ -358,14 +358,16 @@ a.details:hover::after {
 .pic6 {
     position: relative;
     float: right;
-    width: 242px;
+    width: 241px;
     height: 216px;
     padding: 0 24px;
     z-index: 2;
     border: 1px solid #d9d9d9; 
     border-top-right-radius: 25px;
     background-image: linear-gradient(to top, #ececec, #ffffff); 
-}
+    display: inline;
+}   
+
 #pic6-text {
     height: 34px;
     line-height: 34px;
@@ -373,4 +375,50 @@ a.details:hover::after {
     font-weight: bold;
     color: #575757;
 }
+.little-pic6 {
+    float: left;
+    display: inline-block;
+    padding-left: 0;
 
+}
+.pic6-links {
+    text-align: right;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #575757;
+}
+
+.pic6-links {
+    color:#72716d;
+    float: right;
+    font-size: 13px;
+    font-weight: bold;
+}
+a.pic6-links:after {
+    content: '\2056';
+    font-weight: bold;
+    font-size: 19px;
+    color: #f8b713;
+    text-decoration: none;
+}
+a.pic6-links:hover {
+    color: #005ca0;
+    text-decoration: underline;
+}
+a.pic6-links:hover::after {
+    color: #005ca0;
+}
+.links {
+    width: 30%;
+    float: right;
+    display: block;
+    line-height: 14px;
+    padding: 20px 0;
+
+}
+.mapa {
+    width:70%;
+    float: left;
+}
