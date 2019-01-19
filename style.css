@@ -101,6 +101,7 @@ nav.main-nav {
 nav.dropdown-content > ul > li:hover {
     width: 100%;
     background-color: #bcbcbc;
+    z-index: 15;
     
 }
  .dropdown-content {
@@ -118,6 +119,7 @@ nav.dropdown-content > ul > li:hover {
 .dropdown:hover > .dropdown-content {
         display: block;
         padding: 5px;
+        z-index: 5;
         
      }
  #topfirst {
@@ -173,12 +175,12 @@ nav.main-nav > ul > li > a:hover {
     float: right;
     width: 291px;
     height: 354px;
-    z-index: -1;
+    z-index: 1;
     
 }
 .pic1 > img {
     border-bottom-right-radius: 25px;
-    z-index: -1;
+    z-index: 1;
 }
 .readMore {
     color: white;
@@ -199,9 +201,11 @@ a.readMore::after {
 a.readMore:hover {
     color: #005ca0;
     text-decoration: underline;
+    z-index: 100;
 }
 a.readMore:hover::after {
     color: #005ca0;
+    z-index: 100;
 }
 
 h3 {
@@ -234,12 +238,12 @@ h3 {
     margin: 0 13px;
     width: 291px;
     height: 354px;
-    z-index: -1;
+    z-index: 1;
     
 }
 .pic2 > img {
     border-bottom-right-radius: 25px;
-    z-index: -1;
+    z-index: 1;
 }
 
 /*pic3*/
@@ -256,19 +260,18 @@ h3 {
     border-bottom-right-radius: 25px;
     background: rgba(127, 126, 126, 85%);
     line-height: 1;
-
 }
 .pic3 {
     position: relative;
     float: right;
     width: 291px;
     height: 354px;
-    z-index: -1;
+    z-index: 1;
     
 }
 .pic3 > img {
     border-bottom-right-radius: 25px;
-    z-index: -1;
+    z-index: 1;
 }
 
 /*Row2*/
