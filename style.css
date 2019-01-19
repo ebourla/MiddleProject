@@ -188,7 +188,7 @@ nav.main-nav > ul > li > a:hover {
 .readMore {
     color: white;
     float: left;
-    padding-left: 12px;
+    padding-left: 0;
     font-size: 13px;
     margin-top: 7px;
     margin-bottom: 4px;
@@ -422,3 +422,43 @@ a.pic6-links:hover::after {
     width:70%;
     float: left;
 }
+footer {
+    width:
+    100%;
+    background-color: orange;
+    position: fixed;
+    bottom:0;
+    height: 38px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(144, 144, 144) 55%, rgb(170,170,170));  
+}
+.footer {
+    margin: auto;
+    width: 900px;
+    height: 38px;
+    background-image: linear-gradient(to top, rgb(144, 144, 144) 55%, rgb(170,170,170));  
+
+}
+.pipe1 {
+    color: #ffffff;
+    width: 2px;
+    text-align: center;
+    margin: 0;
+    padding: 14px 4px;
+} 
+nav.footmenu > ul > li > a {
+    display: inline-block;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: arial;
+    text-decoration: none;
+    padding-bottom: -10px;
+
+}
+nav.footmenu > ul > li {
+    float: right;
+    list-style: none;
+    padding: 14px 3px;
+}
+
