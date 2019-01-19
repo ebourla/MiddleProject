@@ -173,10 +173,12 @@ nav.main-nav > ul > li > a:hover {
     float: right;
     width: 291px;
     height: 354px;
+    z-index: -1;
+    
 }
 .pic1 > img {
     border-bottom-right-radius: 25px;
-    
+    z-index: -1;
 }
 .readMore {
     color: white;
@@ -200,7 +202,6 @@ a.readMore:hover {
 }
 a.readMore:hover::after {
     color: #005ca0;
-    text-decoration: underline;
 }
 
 h3 {
@@ -233,11 +234,12 @@ h3 {
     margin: 0 13px;
     width: 291px;
     height: 354px;
-    
+    z-index: -1;
     
 }
 .pic2 > img {
     border-bottom-right-radius: 25px;
+    z-index: -1;
 }
 
 /*pic3*/
@@ -261,9 +263,12 @@ h3 {
     float: right;
     width: 291px;
     height: 354px;
+    z-index: -1;
+    
 }
 .pic3 > img {
     border-bottom-right-radius: 25px;
+    z-index: -1;
 }
 
 /*Row2*/
