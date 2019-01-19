@@ -461,4 +461,10 @@ nav.footmenu > ul > li {
     list-style: none;
     padding: 14px 3px;
 }
+nav.footmenu > ul > li > a:hover {
+    width: 100%;
+    text-decoration: underline;
+    color: #005ca0;
+    z-index:4;
+}
 
