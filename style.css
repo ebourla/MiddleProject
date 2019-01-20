@@ -497,17 +497,50 @@ nav.footmenu > ul > li > a:hover {
     color: #005ca0;
 
 }
+/*sidemenu*/
+.sidenav {
+    display: inline;
+    float: right;
+    width: 20%;
+    margin: 0 7px 100px 45px;
+    width: 122px;
+    height: 36px;
+}
+.sidemenu > ul > li > a {
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    width: 115px;
+    height: 36px;
+    overflow: hidden;
+    padding-right: 15px;
+    margin-bottom: 4px;
+    color: #5c5c5c;
+    line-height: 32px;
+    border: 1px solid #d9d9d9; 
+    border-top-left-radius: 25px;
+    background-image: linear-gradient(to top, #ececec, #ffffff);  
+}
+.sidemenu > ul > li > a:hover {
+    color: #0469b6;
+    text-decoration: underline; 
+}
 /*contact us*/
 .contact-us {
     margin: auto;
     width:900px;
     height:426px;
-    margin-top: 17px;
+    margin-top: 7px;
     clear: both;
     display: table;
-    padding: 32px;
+    padding: 32px 0;
 }
-
+.contact75 {
+    width: 75%;
+    margin-top: 40px;
+}
 .form {
     position: relative;
     float: right;
@@ -602,7 +635,7 @@ input[type=button] {
     background-color: #0469b6;
 }
 .prateikesher {
-    margin: 15px 15px 15px 0;
+    margin: 15px 35px 15px 0;
     position: relative;
     float: right;
     width: 272px;
@@ -614,7 +647,7 @@ input[type=button] {
     background-image: linear-gradient(to top, #ececec, #ffffff); 
 }
 .morePaz {
-    margin: 0 15px 15px 0;
+    margin: 0 35px 15px 0;
     position: relative;
     float: right;
     width: 272px;
